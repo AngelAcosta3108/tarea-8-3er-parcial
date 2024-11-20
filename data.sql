@@ -1,0 +1,28 @@
+CREATE TABLE articulos (
+    id INT PRIMARY KEY,
+    nombre VARCHAR (100),
+    color VARCHAR (50),
+    precio dlls DECIMAL (10,2),
+    peso DECIMAL (10,2),
+);
+INSERT INTO articulos (nombre, color, precio dlls, peso)VALUES
+('nissan gtr r34','azul',30000, 1300),
+('ferrari sf90','rojo',507000, 1570),
+('lamborghini aventador','amarillo',507353, 1575),
+('porche 911 gt3 rs','negro',223000, 1450),
+('mclaren 720s','gris',305000, 1420),
+('bugatti chiron','azul',3825000, 1995),
+('aston martin dbs','verde',333000, 1700),
+('chevrolet corvette c8','negro',105000, 1560),
+('bmw m4 csl','rojo',140000, 1650),
+('audi r8','morado',158000, 1600),
+('mercedes-a mg gt','negro',400000, 1650),
+('ford gt','rojo',500000, 1385),
+('toyota supra mk4','blanco',56000, 1500),
+('dodge challenger hellcat','morado',90000, 2000),
+('konigsegg jesko','blanco',3000000, 1450),
+('pagani huayra','rojo',3500000, 1250),
+('maserati mc20','amarillo',250000, 1470),
+('lexus lc 500','negro',99000, 1935),
+('tesla roadster','blanco',200000, 1835),
+('jaguar-type r','azul',113000, 1745);
